@@ -11,7 +11,7 @@ app.use(express.json({}));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://interviewtask-hcxt.onrender.com"],
+    origin: ["https://taskclient-z1y8.onrender.com/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
