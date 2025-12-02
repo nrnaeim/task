@@ -1,0 +1,27 @@
+.formContainer {
+  width: 600px;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  right: -600px;
+  background-color: rgb(236, 227, 227);
+  transition: all;
+  transition-duration: 500ms;
+  display: block;
+  z-index: 1000;
+  overflow: hidden;
+}
+.form {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  height: 100%;
+}
+.formControllBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+}

@@ -1,0 +1,11 @@
+#Node
+**/node_modules
+
+#Environment variables
+*.env
+
+#Package lock 
+**/package-lock.json
+
+#OS related file
+.DS_Store

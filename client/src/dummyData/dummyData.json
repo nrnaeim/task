@@ -1,0 +1,802 @@
+[
+  {
+    "name": "Ayesha Rahman",
+    "department": "Engineering",
+    "role": "Junior Developer",
+    "joiningDate": "2023-04-12",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Tanvir Ahmed",
+    "department": "HR",
+    "role": "HR Assistant",
+    "joiningDate": "2022-11-01",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sadia Karim",
+    "department": "Finance",
+    "role": "Accountant",
+    "joiningDate": "2021-09-18",
+    "status": "On Leave",
+    "gender": "Female"
+  },
+  {
+    "name": "Rafiul Islam",
+    "department": "Marketing",
+    "role": "Digital Marketing Executive",
+    "joiningDate": "2020-03-25",
+    "status": "Inactive",
+    "gender": "Male"
+  },
+  {
+    "name": "Nusrat Jahan",
+    "department": "Operations",
+    "role": "Operations Coordinator",
+    "joiningDate": "2020-12-07",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Mahmud Hasan",
+    "department": "Engineering",
+    "role": "Frontend Developer",
+    "joiningDate": "2023-06-10",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Farhan Ullah",
+    "department": "Engineering",
+    "role": "Backend Developer",
+    "joiningDate": "2022-08-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Shamima Akter",
+    "department": "HR",
+    "role": "Recruitment Officer",
+    "joiningDate": "2021-01-05",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Kawsar Miah",
+    "department": "Finance",
+    "role": "Finance Officer",
+    "joiningDate": "2019-04-09",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Lamia Hossain",
+    "department": "Marketing",
+    "role": "SEO Specialist",
+    "joiningDate": "2023-02-11",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Rasel Hossain",
+    "department": "Engineering",
+    "role": "Software Engineer",
+    "joiningDate": "2021-07-13",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mitu Akter",
+    "department": "Support",
+    "role": "Customer Support Officer",
+    "joiningDate": "2020-01-19",
+    "status": "Inactive",
+    "gender": "Female"
+  },
+  {
+    "name": "Saimon Mahmud",
+    "department": "IT",
+    "role": "IT Technician",
+    "joiningDate": "2019-12-22",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Atiqur Rahman",
+    "department": "Engineering",
+    "role": "QA Tester",
+    "joiningDate": "2023-08-14",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Nadia Yasmin",
+    "department": "HR",
+    "role": "HR Executive",
+    "joiningDate": "2022-02-17",
+    "status": "On Leave",
+    "gender": "Female"
+  },
+  {
+    "name": "Jahidul Islam",
+    "department": "Finance",
+    "role": "Junior Accountant",
+    "joiningDate": "2021-05-10",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Shorna Begum",
+    "department": "Marketing",
+    "role": "Content Writer",
+    "joiningDate": "2024-03-12",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Imran Khan",
+    "department": "Engineering",
+    "role": "DevOps Engineer",
+    "joiningDate": "2020-09-11",
+    "status": "Inactive",
+    "gender": "Male"
+  },
+  {
+    "name": "Ruma Akter",
+    "department": "Operations",
+    "role": "Logistics Officer",
+    "joiningDate": "2023-11-02",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shakib Rahman",
+    "department": "Support",
+    "role": "Support Engineer",
+    "joiningDate": "2022-10-18",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Minhazul Abedin",
+    "department": "Engineering",
+    "role": "Mobile App Developer",
+    "joiningDate": "2021-06-25",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Rita Sultana",
+    "department": "HR",
+    "role": "HR Manager",
+    "joiningDate": "2018-08-01",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Yasin Ali",
+    "department": "Finance",
+    "role": "Senior Accountant",
+    "joiningDate": "2017-04-13",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sadia Islam",
+    "department": "Marketing",
+    "role": "Brand Manager",
+    "joiningDate": "2019-02-10",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Omar Faruk",
+    "department": "Support",
+    "role": "Call Center Agent",
+    "joiningDate": "2024-01-12",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Arif Billah",
+    "department": "Engineering",
+    "role": "System Analyst",
+    "joiningDate": "2022-12-21",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sumaiya Sultana",
+    "department": "Operations",
+    "role": "Supply Chain Assistant",
+    "joiningDate": "2023-03-15",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Towhid Hasan",
+    "department": "Finance",
+    "role": "Billing Officer",
+    "joiningDate": "2019-05-07",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mahrin Nawar",
+    "department": "Marketing",
+    "role": "Social Media Manager",
+    "joiningDate": "2022-07-09",
+    "status": "On Leave",
+    "gender": "Female"
+  },
+  {
+    "name": "Arman Hossain",
+    "department": "Engineering",
+    "role": "Intern Developer",
+    "joiningDate": "2024-04-20",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Raisa Khan",
+    "department": "HR",
+    "role": "HR Coordinator",
+    "joiningDate": "2021-03-08",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shimul Ahsan",
+    "department": "Engineering",
+    "role": "Full Stack Developer",
+    "joiningDate": "2020-06-10",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Bappa Das",
+    "department": "Support",
+    "role": "Technical Support Agent",
+    "joiningDate": "2019-09-22",
+    "status": "Inactive",
+    "gender": "Male"
+  },
+  {
+    "name": "Rini Chowdhury",
+    "department": "Marketing",
+    "role": "UI/UX Designer",
+    "joiningDate": "2023-02-15",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Hasib Mahmud",
+    "department": "Engineering",
+    "role": "Security Analyst",
+    "joiningDate": "2020-08-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sharmin Akter",
+    "department": "Finance",
+    "role": "Cash Officer",
+    "joiningDate": "2018-01-11",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Adil Hasan",
+    "department": "HR",
+    "role": "HR Intern",
+    "joiningDate": "2024-03-21",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Fahad Bin Islam",
+    "department": "Operations",
+    "role": "Operations Analyst",
+    "joiningDate": "2021-12-09",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sultana Jannat",
+    "department": "Support",
+    "role": "Support Specialist",
+    "joiningDate": "2020-05-12",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Rahat Hossain",
+    "department": "Engineering",
+    "role": "Software Intern",
+    "joiningDate": "2023-07-14",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Amira Sultana",
+    "department": "Finance",
+    "role": "Audit Assistant",
+    "joiningDate": "2019-03-16",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Jubayer Khan",
+    "department": "Marketing",
+    "role": "Digital Ads Specialist",
+    "joiningDate": "2020-11-03",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Raisa Tahsin",
+    "department": "Engineering",
+    "role": "Junior Tester",
+    "joiningDate": "2024-01-18",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Arif Rahman",
+    "department": "HR",
+    "role": "HR Supervisor",
+    "joiningDate": "2018-07-30",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Fahima Sultana",
+    "department": "Marketing",
+    "role": "Communications Officer",
+    "joiningDate": "2021-10-07",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Parvez Alam",
+    "department": "Operations",
+    "role": "Warehouse Manager",
+    "joiningDate": "2017-04-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Anika Chowdhury",
+    "department": "Support",
+    "role": "Client Support Executive",
+    "joiningDate": "2023-09-22",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shahadat Hossain",
+    "department": "Engineering",
+    "role": "Network Engineer",
+    "joiningDate": "2020-01-08",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Tamanna Akter",
+    "department": "HR",
+    "role": "HR Trainee",
+    "joiningDate": "2024-02-14",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Jahirul Haque",
+    "department": "Marketing",
+    "role": "Graphic Designer",
+    "joiningDate": "2021-09-02",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mehrab Hasan",
+    "department": "Engineering",
+    "role": "Junior Developer",
+    "joiningDate": "2023-03-05",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Tofazzal Hossain",
+    "department": "Operations",
+    "role": "Shift Supervisor",
+    "joiningDate": "2018-10-12",
+    "status": "Inactive",
+    "gender": "Male"
+  },
+  {
+    "name": "Shammi Akter",
+    "department": "Finance",
+    "role": "Payroll Officer",
+    "joiningDate": "2022-04-17",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Bashar Ahmed",
+    "department": "Engineering",
+    "role": "API Developer",
+    "joiningDate": "2024-01-25",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Rubel Mia",
+    "department": "Support",
+    "role": "Support Technician",
+    "joiningDate": "2019-02-20",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Jerin Akter",
+    "department": "HR",
+    "role": "HR Officer",
+    "joiningDate": "2020-12-01",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Tariqul Islam",
+    "department": "Engineering",
+    "role": "Junior DevOps",
+    "joiningDate": "2024-05-01",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Nafiul Hasan",
+    "department": "Marketing",
+    "role": "Market Research Analyst",
+    "joiningDate": "2022-09-15",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Amina Parvin",
+    "department": "Finance",
+    "role": "Funding Assistant",
+    "joiningDate": "2018-11-19",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shahriar Kabir",
+    "department": "Engineering",
+    "role": "Intern Engineer",
+    "joiningDate": "2024-02-10",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sadia Afrin",
+    "department": "HR",
+    "role": "HR Support",
+    "joiningDate": "2021-04-03",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Rony Islam",
+    "department": "Support",
+    "role": "Service Desk Agent",
+    "joiningDate": "2020-06-14",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Habiba Tasnim",
+    "department": "Marketing",
+    "role": "PR Specialist",
+    "joiningDate": "2023-10-27",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Tanzir Ahmed",
+    "department": "Engineering",
+    "role": "Backend Intern",
+    "joiningDate": "2024-03-22",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Khadija Sultana",
+    "department": "Finance",
+    "role": "Tax Officer",
+    "joiningDate": "2019-01-10",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Arifur Rahman",
+    "department": "Operations",
+    "role": "Inventory Manager",
+    "joiningDate": "2017-05-30",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sharif Hossain",
+    "department": "Support",
+    "role": "Help Desk Assistant",
+    "joiningDate": "2022-11-20",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Tamanna Islam",
+    "department": "Marketing",
+    "role": "Event Coordinator",
+    "joiningDate": "2021-08-14",
+    "status": "On Leave",
+    "gender": "Female"
+  },
+  {
+    "name": "Nusrat Akter",
+    "department": "HR",
+    "role": "HR Generalist",
+    "joiningDate": "2020-04-07",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shuvo Rahman",
+    "department": "Engineering",
+    "role": "Web Developer",
+    "joiningDate": "2023-06-17",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Abeer Chowdhury",
+    "department": "Finance",
+    "role": "Budget Analyst",
+    "joiningDate": "2018-03-29",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Rumi Akter",
+    "department": "Marketing",
+    "role": "Content Creator",
+    "joiningDate": "2024-04-12",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shimul Rahman",
+    "department": "Engineering",
+    "role": "SRE Intern",
+    "joiningDate": "2023-08-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Anamika Sultana",
+    "department": "Operations",
+    "role": "Coordinator",
+    "joiningDate": "2022-05-21",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Rakib Hasan",
+    "department": "HR",
+    "role": "HR Supervisor",
+    "joiningDate": "2017-09-05",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mahinur Rahman",
+    "department": "Support",
+    "role": "Support Intern",
+    "joiningDate": "2024-01-28",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Nusrat Mimi",
+    "department": "Marketing",
+    "role": "Ad Campaign Manager",
+    "joiningDate": "2022-06-18",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Tareq Rahman",
+    "department": "Engineering",
+    "role": "Junior Engineer",
+    "joiningDate": "2023-02-18",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sabrina Akter",
+    "department": "Finance",
+    "role": "Finance Intern",
+    "joiningDate": "2024-04-15",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Abid Hasan",
+    "department": "Operations",
+    "role": "Shift Manager",
+    "joiningDate": "2019-09-08",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Sadia Noor",
+    "department": "Support",
+    "role": "Support Intern",
+    "joiningDate": "2024-03-29",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shahriar Rahman",
+    "department": "HR",
+    "role": "HR Assistant",
+    "joiningDate": "2023-09-21",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Jannatul Ferdaus",
+    "department": "Engineering",
+    "role": "Frontend Intern",
+    "joiningDate": "2024-05-10",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Imtiaz Hasan",
+    "department": "Marketing",
+    "role": "Promotion Lead",
+    "joiningDate": "2022-01-15",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Parvin Akter",
+    "department": "Finance",
+    "role": "Accounts Assistant",
+    "joiningDate": "2020-08-09",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Asif Karim",
+    "department": "Engineering",
+    "role": "AI Intern",
+    "joiningDate": "2024-04-25",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mariya Ahmed",
+    "department": "Operations",
+    "role": "Operations Intern",
+    "joiningDate": "2023-07-22",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Sakib Khan",
+    "department": "Support",
+    "role": "Helpdesk Agent",
+    "joiningDate": "2021-03-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Faria Tasnim",
+    "department": "Marketing",
+    "role": "Influencer Manager",
+    "joiningDate": "2022-11-07",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Towhid Alam",
+    "department": "Engineering",
+    "role": "API Intern",
+    "joiningDate": "2024-02-18",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Zarin Tasnia",
+    "department": "Finance",
+    "role": "Junior Auditor",
+    "joiningDate": "2021-09-03",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Sajid Rahman",
+    "department": "Marketing",
+    "role": "Email Marketing Officer",
+    "joiningDate": "2023-04-21",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Nafisa Ahmed",
+    "department": "HR",
+    "role": "HR Volunteer",
+    "joiningDate": "2024-01-16",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shafin Mahmud",
+    "department": "Engineering",
+    "role": "Cybersecurity Intern",
+    "joiningDate": "2024-03-12",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Mim Akter",
+    "department": "Support",
+    "role": "Customer Care",
+    "joiningDate": "2022-03-05",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Shariful Islam",
+    "department": "Operations",
+    "role": "Team Leader",
+    "joiningDate": "2019-12-11",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Lamia Chowdhury",
+    "department": "Finance",
+    "role": "Senior Auditor",
+    "joiningDate": "2018-08-14",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Rana Hasan",
+    "department": "Engineering",
+    "role": "ML Developer",
+    "joiningDate": "2023-05-19",
+    "status": "Active",
+    "gender": "Male"
+  },
+  {
+    "name": "Elma Sultana",
+    "department": "HR",
+    "role": "HR Specialist",
+    "joiningDate": "2020-06-13",
+    "status": "Active",
+    "gender": "Female"
+  },
+  {
+    "name": "Ayaan Chowdhury",
+    "department": "Marketing",
+    "role": "Creative Director",
+    "joiningDate": "2019-10-10",
+    "status": "Active",
+    "gender": "Male"
+  }
+]
