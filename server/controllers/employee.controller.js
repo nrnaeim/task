@@ -40,7 +40,15 @@ const getEmployees = async (req, res, next) => {
 const updateEmployee = async (req, res, next) => {
   try {
     const id = req.params.id;
-    const updatedEmployee = await EmployeeModel.findByIdAndUpdate(id, req.body);
+    console.log("Body", req.body);
+
+    const updatedEmployee = await EmployeeModel.findByIdAndUpdate(
+      id,
+      req.body,
+      { new: true }
+    );
+    console.log("Updated", updatedEmployee);
+
     if (!updatedEmployee) {
       return sendResponse(res, 400, false, "Employee not found");
     }
