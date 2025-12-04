@@ -30,6 +30,8 @@ const NameFilterDropdown = ({
       }}
     >
       <Input
+        id="name"
+        name="name"
         style={{ border: "none", outline: "none" }}
         allowClear
         autoFocus={true}
@@ -63,7 +65,6 @@ const NameColumn = {
   sorter: (a, b) => a.name.localeCompare(b.name),
   filterDropdown: NameFilterDropdown,
   onFilter: (value, record) => {
-    console.log(value);
     const regExp = new RegExp(value, "ig");
     return regExp.test(record.name);
   },
