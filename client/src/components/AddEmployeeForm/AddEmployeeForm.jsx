@@ -1,22 +1,22 @@
 import styles from "./AddEmployeeForm.module.css";
 import { Button, DatePicker, Form, Input, Select } from "antd";
 import { departments, roles } from "./Fields";
-import { useContext, useEffect } from "react";
-import { AppContext } from "../../Contexts/Contexts";
+import { useEffect } from "react";
 import { useForm } from "antd/es/form/Form";
 import dayjs from "dayjs";
-import { toast } from "react-toastify";
-import employeeApis from "../../apis/apis";
+import useEmployeeStore from "../../store/employee.store";
+import useFormStore from "../../store/form.store";
 
-function AddEmployeeForm() {
-  const {
-    showAddForm,
-    setShowAddForm,
-    personToUpdate,
-    setPersonToUpdate,
-    setTableData,
-    setData,
-  } = useContext(AppContext);
+const AddEmployeeForm = () => {
+  //Form states
+  const showForm = useFormStore((s) => s.showForm);
+  const setShowForm = useFormStore((s) => s.setShowForm);
+  const personToUpdate = useFormStore((s) => s.personToUpdate);
+  const setPersonToUpdate = useFormStore((s) => s.setPersonToUpdate);
+  //Employee states
+  const setFetchError = useEmployeeStore((s) => s.setFetchError);
+  const addEmployee = useEmployeeStore((s) => s.addEmployee);
+  const updateEmployee = useEmployeeStore((s) => s.updateEmployee);
 
   const [form] = useForm();
 
@@ -35,33 +35,23 @@ function AddEmployeeForm() {
   }, [personToUpdate]);
 
   const onFinish = async (values) => {
-    try {
-      let response;
-      if (personToUpdate) {
-        const id = personToUpdate._id;
-        response = await employeeApis.put(`/update/${id}`, values);
-      } else {
-        response = await employeeApis.post("/add", values);
-      }
-
-      if (response.data?.success) {
-        toast.success(response.data.message);
-        response = await employeeApis.get("/");
-        if (response.data?.success) {
-          setShowAddForm(false);
-          setData(response.data.data);
-          setTableData(response.data.data);
-        }
-        return form.resetFields();
-      }
-    } catch (error) {
-      return toast.error(error.response.data?.message);
+    if (personToUpdate) {
+      const id = personToUpdate._id;
+      await updateEmployee(id, values);
+    } else {
+      await addEmployee(values);
+    }
+    if (!useEmployeeStore.getState().fetchError) {
+      form.resetFields();
+      setFetchError(false);
+      setShowForm(false);
     }
   };
+
   return (
     <div
       className={styles.formContainer}
-      style={showAddForm ? { right: "0px" } : { right: "-600px" }}
+      style={showForm ? { right: "0px" } : { right: "-600px" }}
     >
       <h1 style={{ textAlign: "center", marginBottom: 0 }}>
         {personToUpdate ? "Update employee" : "Add employee"}
@@ -198,7 +188,7 @@ function AddEmployeeForm() {
             <Button
               type="primary"
               onClick={() => {
-                setShowAddForm(false);
+                setShowForm(false);
                 setPersonToUpdate(null);
               }}
             >
@@ -213,6 +203,6 @@ function AddEmployeeForm() {
       </Form>
     </div>
   );
-}
+};
 
 export default AddEmployeeForm;
