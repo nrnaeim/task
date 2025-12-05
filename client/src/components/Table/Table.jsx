@@ -1,27 +1,27 @@
-import { Spin, Table } from "antd";
-import { useContext } from "react";
+import { Table } from "antd";
 import { useEffect } from "react";
-import { AppContext } from "../../Contexts/Contexts";
 import columns from "./Columns/Columns";
+import useEmployeeStore from "../../store/employee.store";
 
 //Table content
-function DataTable() {
-  const { loading, setLoading, tableData } = useContext(AppContext);
+const DataTable = () => {
+  const fetchEmployees = useEmployeeStore((s) => s.fetchEmployees);
+  const employees = useEmployeeStore((s) => s.employees);
+  const loading = useEmployeeStore((s) => s.loading);
 
   useEffect(() => {
-    setLoading(true);
-    const id = setTimeout(() => {
-      setLoading(false);
-    }, 500);
-    return () => clearTimeout(id);
-  }, [tableData]);
+    fetchEmployees();
+  }, [fetchEmployees]);
 
   return (
     <>
       <Table
         style={{ paddingRight: "10px" }}
-        loading={loading}
-        dataSource={tableData}
+        loading={{
+          spinning: loading,
+          tip: "Loading...",
+        }}
+        dataSource={employees}
         columns={columns}
         sticky={true}
         tableLayout="auto"
@@ -30,6 +30,6 @@ function DataTable() {
       />
     </>
   );
-}
+};
 
 export default DataTable;
