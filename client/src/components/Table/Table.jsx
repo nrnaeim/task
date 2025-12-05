@@ -1,18 +1,8 @@
 import { Table } from "antd";
-import { useEffect } from "react";
 import columns from "./Columns/Columns";
-import useEmployeeStore from "../../store/employee.store";
 
 //Table content
-const DataTable = () => {
-  const fetchEmployees = useEmployeeStore((s) => s.fetchEmployees);
-  const employees = useEmployeeStore((s) => s.employees);
-  const loading = useEmployeeStore((s) => s.loading);
-
-  useEffect(() => {
-    fetchEmployees();
-  }, [fetchEmployees]);
-
+const DataTable = ({ loading, tableData }) => {
   return (
     <>
       <Table
@@ -21,7 +11,7 @@ const DataTable = () => {
           spinning: loading,
           tip: "Loading...",
         }}
-        dataSource={employees}
+        dataSource={tableData}
         columns={columns}
         sticky={true}
         tableLayout="auto"
