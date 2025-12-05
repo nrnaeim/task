@@ -1,27 +1,14 @@
 import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
-import { useContext } from "react";
-import { AppContext } from "../../../Contexts/Contexts";
 import { Popconfirm } from "antd";
-import employeeApis from "../../../apis/apis";
-import { toast } from "react-toastify";
+import useEmployeeStore from "../../../store/employee.store";
+import useFormStore from "../../../store/form.store";
 
 const ActionRenderColumn = ({ record }) => {
-  const { setShowAddForm, setPersonToUpdate, setData, setTableData } =
-    useContext(AppContext);
-  const deleteButtonHandler = async () => {
-    try {
-      const id = record._id;
-      let response = await employeeApis.delete(`/delete/${id}`);
-      if (response.data?.success) {
-        toast.success(response.data?.message);
-        response = await employeeApis.get("/");
-        setData(response.data.data);
-        setTableData(response.data.data);
-      }
-    } catch (error) {
-      return toast.error(error.response.data?.message);
-    }
-  };
+  //Form store
+  const setShowForm = useFormStore((s) => s.setShowForm);
+  const setPersonToUpdate = useFormStore((s) => s.setPersonToUpdate);
+  //Employee store
+  const deleteEmployee = useEmployeeStore((s) => s.deleteEmployee);
 
   return (
     <div
@@ -32,16 +19,18 @@ const ActionRenderColumn = ({ record }) => {
         gap: "15px",
       }}
     >
+      {/*Edit icon*/}
       <EditOutlined
         onClick={() => {
-          setShowAddForm(true);
+          setShowForm(true);
           setPersonToUpdate(record);
         }}
       />
+      {/*Delete icon */}
       <Popconfirm
         title="Are you sure?"
         okText="Yes"
-        onConfirm={deleteButtonHandler}
+        onConfirm={() => deleteEmployee(record)}
         cancelText="No"
       >
         <DeleteOutlined style={{ color: "red" }} />
