@@ -4,7 +4,6 @@ import { toast } from "react-toastify";
 
 const employeeStore = (set) => ({
   employees: [],
-  loading: false,
   fetchError: false,
   setFetchError: (state) => set({ error: state }),
   //Fetch all employee state
