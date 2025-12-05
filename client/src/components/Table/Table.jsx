@@ -1,8 +1,10 @@
 import { Table } from "antd";
 import columns from "./Columns/Columns";
+import useAppStore from "../../store/app.store";
 
 //Table content
-const DataTable = ({ loading, tableData }) => {
+const DataTable = ({ tableData }) => {
+  const loading = useAppStore((s) => s.loading);
   return (
     <>
       <Table
