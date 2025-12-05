@@ -43,8 +43,9 @@ const AddEmployeeForm = () => {
     }
     if (!useEmployeeStore.getState().fetchError) {
       form.resetFields();
-      setFetchError(false);
       setShowForm(false);
+      setFetchError(false);
+      setPersonToUpdate(null);
     }
   };
 
