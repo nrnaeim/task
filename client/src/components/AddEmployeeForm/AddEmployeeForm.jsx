@@ -6,8 +6,11 @@ import { useForm } from "antd/es/form/Form";
 import dayjs from "dayjs";
 import useEmployeeStore from "../../store/employee.store";
 import useFormStore from "../../store/form.store";
+import useAppStore from "../../store/app.store";
 
 const AddEmployeeForm = () => {
+  //App store
+  const setLoading = useAppStore((s) => s.setLoading);
   //Form states
   const showForm = useFormStore((s) => s.showForm);
   const setShowForm = useFormStore((s) => s.setShowForm);
@@ -35,6 +38,7 @@ const AddEmployeeForm = () => {
   }, [personToUpdate]);
 
   const onFinish = async (values) => {
+    setLoading(true);
     if (personToUpdate) {
       const id = personToUpdate._id;
       await updateEmployee(id, values);
@@ -47,6 +51,7 @@ const AddEmployeeForm = () => {
       setFetchError(false);
       setPersonToUpdate(null);
     }
+    setLoading(false);
   };
 
   return (
