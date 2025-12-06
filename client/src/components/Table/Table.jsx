@@ -9,10 +9,7 @@ const DataTable = ({ tableData }) => {
     <>
       <Table
         style={{ paddingRight: "10px" }}
-        loading={{
-          spinning: loading,
-          tip: "Loading...",
-        }}
+        loading={loading}
         dataSource={tableData}
         columns={columns}
         sticky={true}
