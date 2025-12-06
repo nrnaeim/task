@@ -2,6 +2,7 @@ import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
 import { Popconfirm } from "antd";
 import useEmployeeStore from "../../../store/employee.store";
 import useFormStore from "../../../store/form.store";
+import useAppStore from "../../../store/app.store";
 
 const ActionRenderColumn = ({ record }) => {
   //Form store
@@ -9,6 +10,13 @@ const ActionRenderColumn = ({ record }) => {
   const setPersonToUpdate = useFormStore((s) => s.setPersonToUpdate);
   //Employee store
   const deleteEmployee = useEmployeeStore((s) => s.deleteEmployee);
+  const setLoading = useAppStore((s) => s.setLoading);
+
+  const deleteBtnHandler = async () => {
+    setLoading(true);
+    await deleteEmployee(record);
+    setLoading(false);
+  };
 
   return (
     <div
@@ -30,7 +38,7 @@ const ActionRenderColumn = ({ record }) => {
       <Popconfirm
         title="Are you sure?"
         okText="Yes"
-        onConfirm={() => deleteEmployee(record)}
+        onConfirm={deleteBtnHandler}
         cancelText="No"
       >
         <DeleteOutlined style={{ color: "red" }} />
